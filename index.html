@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>smart box</title>
+    <link rel="icon" href="accet/img/fevicon.png" />
+    <!-- Use href for the favicon -->
+    <!-- css file -->
+    <link rel="stylesheet" href="accet/style.css" />
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ................ -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand logoSection" href="#">
+          <b>SMART</b>
+          <span>BOX</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse toogle_items" id="navbarNav">
+          <ul class="navbar-nav text-center ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PAGES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="carousel">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <ol class="carousel-indicators">
+          <!-- Changed to 'ol' element -->
+          <li
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+            style="border-radius: 50%; width: 16px; height: 16px"
+          ></li>
+          <li data-bs-target="#demo" data-bs-slide-to="1" style="border-radius: 50%; width: 16px; height: 16px"></li>
+          <li data-bs-target="#demo" data-bs-slide-to="2" style="border-radius: 50%; width: 16px; height: 16px"></li>
+        </ol>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="accet/img/carosal-1.jpeg" alt="Los Angeles" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="accet/img/carosal-2.jpg" alt="Chicago" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="accet/img/carosal-3.jpg" alt="New York" class="d-block w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <section class="cards row">
+        <!-- Card 1 -->
+        <div class="card p-2 col-12 col-md-6 col-lg-3">
+          <div class="img1 text-center">
+            <img src="accet/img/carosal-1.jpeg" alt="" />
+            <i class="fa-solid fa-heart" style="color: #ffffff"></i>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title text-center">WEB APPLICATION</h4>
+            <p class="card-text">
+              A web application is software that runs in your web browser. Businesses have to exchange information and
+              deliver services remotely. They use web applications to connect with customers conveniently and securely.
+            </p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card p-2 col-12 col-md-6 col-lg-3">
+          <div class="img1 text-center">
+            <img src="accet/img/carosal-1.jpeg" alt="" />
+            <i class="fa-brands fa-artstation" style="color: #ffffff"></i>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title text-center">CLOUD HOSTING</h4>
+            <p class="card-text">
+              Cloud hosting makes applications and websites accessible using cloud resources. Unlike traditional hosting,
+              solutions are not deployed on a single server. Instead, a network of connected virtual and physical cloud
+              servers hosts the application or website, ensuring greater flexibility and scalability.
+            </p>
+          </div>
+        </div>
+       
+        <!-- Card 3 -->
+        <div class="card p-2 col-12 col-md-6 col-lg-3">
+          <div class="img1 text-center">
+            <img src="accet/img/carosal-1.jpeg" alt="" />
+            <i class="fa-brands fa-apple" style="color: #ffffff"></i>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title text-center">SOCIAL APPS</h4>
+            <p class="card-text">
+              Social apps, also known as social apps or social platform includes communications and interactive tools that
+              are often based on the Internet. Communication tools typically handle capturing, storing and presenting
+              communication, usually written but increasingly including audio and video as well.
+            </p>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card p-2 col-12 col-md-6 col-lg-3">
+          <div class="img1 text-center"><img src="accet/img/carosal-1.jpeg" alt="" />
+            <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title text-center">SMART DESIGN</h4>
+            <p class="card-text">
+              Smart Design humanizes products, services and experiences through deep research, insights and design
+              strategies. Dig deep into the research to uncover actionable insights that define the opportunity. Then design
+              the strategy to activate it.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- script -->
+    <script src="accet/script.js"></script>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
